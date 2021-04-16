@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navprincipal">
+    <fragment
+        android:id="@+id/navprincipal"
+        android:name="edu.pe.idat.appkea4materialdesign.ui.fragmets.PrincipalFragment"
+        android:label="@string/valnavprincipal"
+        tools:layout="@layout/fragment_principal" />
+    <fragment
+        android:id="@+id/navgaleria"
+        android:name="edu.pe.idat.appkea4materialdesign.ui.fragmets.GaleriaFragment"
+        android:label="@string/valnavgaleria"
+        tools:layout="@layout/fragment_galeria" />
+    <fragment
+        android:id="@+id/navnotificaciones"
+        android:name="edu.pe.idat.appkea4materialdesign.ui.fragmets.NotificacionesFragment"
+        android:label="@string/valnavnotificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+</navigation>

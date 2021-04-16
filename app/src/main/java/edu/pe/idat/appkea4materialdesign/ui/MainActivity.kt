@@ -1,4 +1,4 @@
-package edu.pe.idat.appkea4materialdesign
+package edu.pe.idat.appkea4materialdesign.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
